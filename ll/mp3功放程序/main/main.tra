@@ -1,0 +1,37 @@
+*** Creating Trace Output File 'main.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"stm32f10x.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"sys.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"..\Lib\STM32F10xR.LIB"'
+### List of Objects: adding '"spi2.o"'
+### List of Objects: adding '"vs1003x.o"'
+### List of Objects: adding '"mmc_sd.o"'
+### List of Objects: adding '"lcd13164.o"'
+### List of Objects: adding '"keyboard.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"fat.o"'
+### List of Objects: adding '"untogb.o"'
+### List of Objects: adding '"gui.o"'
+### List of Objects: adding '"mp3player.o"'
+### List of Objects: adding '"lrcpro.o"'
+### List of Objects: adding '"my_fft.o"'
+### List of Objects: adding '"snake.o"'
+### List of Objects: adding '"russia.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "stm32f10x.o" "main.o" "sys.o" "delay.o" "..\Lib\STM32F10xR.LIB" "spi2.o" "vs1003x.o" "mmc_sd.o" "lcd13164.o" "keyboard.o" "adc.o" "fat.o" "untogb.o" "gui.o" "mp3player.o" "lrcpro.o" "my_fft.o" "snake.o" "russia.o" --strict --scatter "main.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\main.map" -o "main.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'main.axf'
+### ADS-LD Command File: 'main.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'main.lnp', Handle=0x00000404
+### Writing '.lnp' file
+### ADS-LD Command file 'main.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

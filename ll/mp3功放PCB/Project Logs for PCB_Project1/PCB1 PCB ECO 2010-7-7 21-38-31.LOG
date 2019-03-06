@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=VBAT Pin=BAT-1
+Added Pin To Net: NetName=DGND Pin=BAT-2
+Added Member To Class: ClassName=Sheet1 Member=Component BAT UPS

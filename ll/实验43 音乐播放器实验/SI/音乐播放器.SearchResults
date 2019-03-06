@@ -1,0 +1,13 @@
+---- SD_Init Matches (12 in 3 files) ----
+Diskio.c (fatfs\src):			res=SD_Init();//SD卡初始化 
+Diskio.c (fatfs\src):				SD_Init();	//重新初始化SD卡
+Diskio.c (fatfs\src):				SD_Init();	//重新初始化SD卡
+Sdio_sdcard.c (hardware\sdio)://1,SD_Init增加卡类型判断，对V1.1和V1.2的SD卡降低SDIO速度，以防出错
+Sdio_sdcard.c (hardware\sdio):SD_Error SD_Init(void)
+Sdio_sdcard.c (hardware\sdio): 	if(errorstatus==SD_OK)errorstatus=SD_InitializeCards();			//初始化SD卡														  
+Sdio_sdcard.c (hardware\sdio):SD_Error SD_InitializeCards(void)
+Sdio_sdcard.c (hardware\sdio):  			SD_Init();	 					//重新初始化SD卡,可以解决写入死机的问题
+Sdio_sdcard.c (hardware\sdio):  				SD_Init();	 					//重新初始化SD卡,可以解决写入死机的问题
+Sdio_sdcard.h (hardware\sdio)://1,SD_Init增加卡类型判断，对V1.1和V1.2的SD卡降低SDIO速度，以防出错
+Sdio_sdcard.h (hardware\sdio):SD_Error SD_Init(void);
+Sdio_sdcard.h (hardware\sdio):SD_Error SD_InitializeCards(void);

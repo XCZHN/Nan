@@ -1,0 +1,9 @@
+Added Component: Designator=C16(1608[0603])
+Added Component: Designator=down(HDR1X3)
+Added Pin To Net: NetName=DGND Pin=C16-1
+Added Pin To Net: NetName=VCC3.3 Pin=C16-2
+Added Pin To Net: NetName=DGND Pin=down-1
+Added Pin To Net: NetName=LCDCS Pin=down-2
+Added Pin To Net: NetName=LCDSCK Pin=down-3
+Added Member To Class: ClassName=Sheet1 Member=Component C16 
+Added Member To Class: ClassName=Sheet1 Member=Component down Header 3

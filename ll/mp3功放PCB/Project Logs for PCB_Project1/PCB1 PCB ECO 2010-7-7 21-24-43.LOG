@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=MP3_RST Pin=U4-11
+Removed Pin From Net: NetName=MP3_DREQ Pin=U4-12
+Removed Pin From Net: NetName=MP3_XDCS Pin=U4-13
+Removed Pin From Net: NetName=MP3_XCS Pin=U4-14
+Added Pin To Net: NetName=MP3_RST Pin=U4-40
+Added Pin To Net: NetName=MP3_DREQ Pin=U4-41
+Added Pin To Net: NetName=MP3_XDCS Pin=U4-42
+Added Pin To Net: NetName=MP3_XCS Pin=U4-43
+Added Pin To Net: NetName=PA1 Pin=U4-11
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA2 Pin=U4-12
+Added Net: Name=PA2
+Added Pin To Net: NetName=PA3 Pin=U4-13
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=U4-14
+Added Net: Name=PA4

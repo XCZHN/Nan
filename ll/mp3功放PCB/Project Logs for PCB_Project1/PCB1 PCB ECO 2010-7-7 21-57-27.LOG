@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=PA0 Pin=U3-5
+Added Component: Designator=down(HDR1X3)
+Added Pin To Net: NetName=DGND Pin=down-1
+Added Pin To Net: NetName=LCDCS Pin=down-2
+Added Pin To Net: NetName=LCDSCK Pin=down-3
+Added Pin To Net: NetName=PA2 Pin=U3-5
+Added Member To Class: ClassName=Sheet1 Member=Component down Header 3

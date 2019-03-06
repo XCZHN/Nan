@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=REDIN Pin=U13-1
+Added Pin To Net: NetName=DGND Pin=U13-2
+Added Pin To Net: NetName=VDD Pin=U13-3

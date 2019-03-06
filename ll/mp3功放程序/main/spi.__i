@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYS -I..\device\MMC_SD -I..\device\SPI -I..\device\SPI2 -I..\device\VS1003 -I..\main -I..\device\LCD13164 -I "E:\WorkSpace\MDK410\ARM\INC" -I "E:\WorkSpace\MDK410\ARM\INC\ST\STM32F10x" -o "spi.o" --omf_browse "spi.crf" --depend "spi.d" "..\device\SPI\SPI.C"

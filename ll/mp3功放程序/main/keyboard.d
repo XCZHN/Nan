@@ -1,0 +1,49 @@
+.\keyboard.o: ..\device\Keyboard\keyboard.c
+.\keyboard.o: ..\main\main.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\keyboard.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\keyboard.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\keyboard.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\keyboard.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\keyboard.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\keyboard.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\keyboard.o: ..\SYS\sys.h
+.\keyboard.o: ..\SYS\delay.h
+.\keyboard.o: ..\device\VS1003\vs1003.h
+.\keyboard.o: ..\main\main.h
+.\keyboard.o: ..\device\MMC_SD\MMC_SD.h
+.\keyboard.o: ..\device\SPI2\spi2.h
+.\keyboard.o: ..\device\LCD13164\lcd13164.h
+.\keyboard.o: ..\FAT\fat.h
+.\keyboard.o: ..\FAT\comm.h
+.\keyboard.o: ..\Untogb\untogb.h
+.\keyboard.o: ..\device\Keyboard\keyboard.h
+.\keyboard.o: ..\FFT\my_fft.h
+.\keyboard.o: ..\device\ADC\ADC.h
+.\keyboard.o: ..\game\snake.h
+.\keyboard.o: ..\game\russia.h

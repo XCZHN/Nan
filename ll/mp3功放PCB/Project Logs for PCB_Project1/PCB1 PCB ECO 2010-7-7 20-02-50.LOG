@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PB14 Pin=SD-2
+Removed Pin From Net: NetName=PB13 Pin=SD-3
+Removed Pin From Net: NetName=PB15 Pin=SD-4
+Added Pin To Net: NetName=PB15 Pin=SD-2
+Added Pin To Net: NetName=PB14 Pin=SD-3
+Added Pin To Net: NetName=PB13 Pin=SD-4

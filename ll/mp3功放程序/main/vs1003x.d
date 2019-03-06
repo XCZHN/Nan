@@ -1,0 +1,50 @@
+.\vs1003x.o: ..\device\VS1003\VS1003x.c
+.\vs1003x.o: ..\device\VS1003\vs1003.h
+.\vs1003x.o: ..\main\main.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\vs1003x.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\vs1003x.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\vs1003x.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\vs1003x.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\vs1003x.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\vs1003x.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\vs1003x.o: ..\SYS\sys.h
+.\vs1003x.o: ..\SYS\delay.h
+.\vs1003x.o: ..\device\VS1003\vs1003.h
+.\vs1003x.o: ..\device\MMC_SD\MMC_SD.h
+.\vs1003x.o: ..\device\SPI2\spi2.h
+.\vs1003x.o: ..\device\LCD13164\lcd13164.h
+.\vs1003x.o: ..\FAT\fat.h
+.\vs1003x.o: ..\FAT\comm.h
+.\vs1003x.o: ..\Untogb\untogb.h
+.\vs1003x.o: ..\device\Keyboard\keyboard.h
+.\vs1003x.o: ..\FFT\my_fft.h
+.\vs1003x.o: ..\device\ADC\ADC.h
+.\vs1003x.o: ..\game\snake.h
+.\vs1003x.o: ..\game\russia.h
+.\vs1003x.o: ..\device\VS1003\spec_rew.h

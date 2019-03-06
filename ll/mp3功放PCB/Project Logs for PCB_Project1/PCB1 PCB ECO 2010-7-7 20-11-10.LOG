@@ -1,0 +1,16 @@
+Added Component: Designator=LCD1(HDR1X9)
+Added Pin To Net: NetName=5V Pin=LCD1-1
+Added Pin To Net: NetName=DGND Pin=LCD1-2
+Added Pin To Net: NetName=DGND Pin=LCD1-3
+Added Pin To Net: NetName=VCC3.3 Pin=LCD1-4
+Added Pin To Net: NetName=LCDCS Pin=LCD1-7
+Added Net: Name=LCDCS
+Added Pin To Net: NetName=LCDRS Pin=LCD1-6
+Added Net: Name=LCDRS
+Added Pin To Net: NetName=LCDRST Pin=LCD1-5
+Added Net: Name=LCDRST
+Added Pin To Net: NetName=LCDSCK Pin=LCD1-8
+Added Net: Name=LCDSCK
+Added Pin To Net: NetName=LCDSDA Pin=LCD1-9
+Added Net: Name=LCDSDA
+Added Member To Class: ClassName=Sheet1 Member=Component LCD1 LCD13164

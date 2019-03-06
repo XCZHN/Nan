@@ -1,0 +1,49 @@
+.\lrcpro.o: ..\GUI\lrcpro.c
+.\lrcpro.o: ..\main\main.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\lrcpro.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\lrcpro.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\lrcpro.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\lrcpro.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\lrcpro.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\lrcpro.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\lrcpro.o: ..\SYS\sys.h
+.\lrcpro.o: ..\SYS\delay.h
+.\lrcpro.o: ..\device\VS1003\vs1003.h
+.\lrcpro.o: ..\main\main.h
+.\lrcpro.o: ..\device\MMC_SD\MMC_SD.h
+.\lrcpro.o: ..\device\SPI2\spi2.h
+.\lrcpro.o: ..\device\LCD13164\lcd13164.h
+.\lrcpro.o: ..\FAT\fat.h
+.\lrcpro.o: ..\FAT\comm.h
+.\lrcpro.o: ..\Untogb\untogb.h
+.\lrcpro.o: ..\device\Keyboard\keyboard.h
+.\lrcpro.o: ..\FFT\my_fft.h
+.\lrcpro.o: ..\device\ADC\ADC.h
+.\lrcpro.o: ..\game\snake.h
+.\lrcpro.o: ..\game\russia.h

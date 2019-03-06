@@ -1,0 +1,375 @@
+Dependencies for Project 'TEST', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x542E6B02)(--cpu Cortex-M4.fp -g --apcs=interwork -I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"--pd "__UVISION_VERSION SETA 515" --pd "STM32F407xx SETA 1"--list ..\obj\startup_stm32f40_41xxx.lst --xref -o ..\obj\startup_stm32f40_41xxx.o --depend ..\obj\startup_stm32f40_41xxx.d)
+F (.\test.c)(0x55C03CD6)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\test.o --omf_browse ..\obj\test.crf --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\HARDWARE\LED\led.h)(0x53660F45)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4D)
+I (D:\Keil uv5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\HARDWARE\KEY\key.h)(0x53BB65F3)
+I (..\USMART\usmart.h)(0x53FF1B0C)
+I (..\USMART\usmart_str.h)(0x53FF1B0C)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x545DDA6B)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\exfuns\exfuns.h)(0x54002836)
+I (..\TEXT\fontupd.h)(0x53C73922)
+I (..\TEXT\text.h)(0x53FDDD57)
+I (..\HARDWARE\WM8978\wm8978.h)(0x542FDDF8)
+I (..\APP\audioplay.h)(0x544B9E85)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x54008285)
+F (..\SYSTEM\delay\delay.c)(0x55BF04B1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\sys\sys.c)(0x5528CA85)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\SYSTEM\usart\usart.c)(0x5C64DC02)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\HARDWARE\LED\led.c)(0x53FEB8D7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x53660F45)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\HARDWARE\LCD\ILI93xx.c)(0x55C0917E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\ili93xx.o --omf_browse ..\obj\ili93xx.crf --depend ..\obj\ili93xx.d)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4D)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (D:\Keil uv5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\HARDWARE\LCD\font.h)(0x52C52FE7)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+F (..\HARDWARE\KEY\key.c)(0x53BCC37E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x53BB65F3)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+F (..\HARDWARE\SDIO\sdio_sdcard.c)(0x545DDA6B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\sdio_sdcard.o --omf_browse ..\obj\sdio_sdcard.crf --depend ..\obj\sdio_sdcard.d)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x545DDA6B)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\HARDWARE\SPI\spi.c)(0x53FF3C78)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x53FF3C78)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\HARDWARE\W25QXX\w25qxx.c)(0x53FF3D65)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\w25qxx.o --omf_browse ..\obj\w25qxx.crf --depend ..\obj\w25qxx.d)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\SPI\spi.h)(0x53FF3C78)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\HARDWARE\24CXX\myiic.c)(0x5368BC34)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\myiic.o --omf_browse ..\obj\myiic.crf --depend ..\obj\myiic.d)
+I (..\HARDWARE\24CXX\myiic.h)(0x542552FC)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+F (..\HARDWARE\I2S\i2s.c)(0x54957623)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\i2s.o --omf_browse ..\obj\i2s.crf --depend ..\obj\i2s.d)
+I (..\HARDWARE\I2S\i2s.h)(0x54957635)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\HARDWARE\WM8978\wm8978.c)(0x5430FA6F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\wm8978.o --omf_browse ..\obj\wm8978.crf --depend ..\obj\wm8978.d)
+I (..\HARDWARE\WM8978\wm8978.h)(0x542FDDF8)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\24CXX\myiic.h)(0x542552FC)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+F (..\MALLOC\malloc.c)(0x54001EB3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\malloc.o --omf_browse ..\obj\malloc.crf --depend ..\obj\malloc.d)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+F (..\FATFS\src\ff.c)(0x5400258C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\ff.o --omf_browse ..\obj\ff.crf --depend ..\obj\ff.d)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (D:\Keil uv5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+F (..\FATFS\src\diskio.c)(0x54002527)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\diskio.o --omf_browse ..\obj\diskio.crf --depend ..\obj\diskio.d)
+I (..\FATFS\src\diskio.h)(0x52D56672)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x545DDA6B)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+F (..\FATFS\exfuns\exfuns.c)(0x54002836)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\exfuns.o --omf_browse ..\obj\exfuns.crf --depend ..\obj\exfuns.d)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\FATFS\exfuns\exfuns.h)(0x54002836)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\FATFS\exfuns\fattester.h)(0x537486F6)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\FATFS\exfuns\fattester.c)(0x5400285B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\fattester.o --omf_browse ..\obj\fattester.crf --depend ..\obj\fattester.d)
+I (..\FATFS\exfuns\fattester.h)(0x537486F6)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x545DDA6B)
+I (..\USMART\usmart.h)(0x53FF1B0C)
+I (..\USMART\usmart_str.h)(0x53FF1B0C)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\FATFS\exfuns\exfuns.h)(0x54002836)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+F (..\FATFS\exfuns\mycc936.c)(0x53FDDD55)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\mycc936.o --omf_browse ..\obj\mycc936.crf --depend ..\obj\mycc936.d)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\TEXT\fontupd.h)(0x53C73922)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+F (..\TEXT\fontupd.c)(0x5403FFDD)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\fontupd.o --omf_browse ..\obj\fontupd.crf --depend ..\obj\fontupd.d)
+I (..\TEXT\fontupd.h)(0x53C73922)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4D)
+I (D:\Keil uv5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\TEXT\text.c)(0x53FDDD56)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\text.o --omf_browse ..\obj\text.crf --depend ..\obj\text.d)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\TEXT\fontupd.h)(0x53C73922)
+I (..\HARDWARE\W25QXX\w25qxx.h)(0x53FF3C78)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4D)
+I (D:\Keil uv5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\TEXT\text.h)(0x53FDDD57)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\USMART\usmart.c)(0x53FF1C56)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\usmart.o --omf_browse ..\obj\usmart.crf --depend ..\obj\usmart.d)
+I (..\USMART\usmart.h)(0x53FF1B0C)
+I (..\USMART\usmart_str.h)(0x53FF1B0C)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\USMART\usmart_config.c)(0x54311B14)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\usmart_config.o --omf_browse ..\obj\usmart_config.crf --depend ..\obj\usmart_config.d)
+I (..\USMART\usmart.h)(0x53FF1B0C)
+I (..\USMART\usmart_str.h)(0x53FF1B0C)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\HARDWARE\WM8978\wm8978.h)(0x542FDDF8)
+F (..\USMART\usmart_str.c)(0x53FF1B0C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\usmart_str.o --omf_browse ..\obj\usmart_str.crf --depend ..\obj\usmart_str.d)
+I (..\USMART\usmart_str.h)(0x53FF1B0C)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\USMART\usmart.h)(0x53FF1B0C)
+F (..\AUDIOCODEC\wav\wavplay.c)(0x54311665)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\wavplay.o --omf_browse ..\obj\wavplay.crf --depend ..\obj\wavplay.d)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x54008285)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\APP\audioplay.h)(0x544B9E85)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\HARDWARE\I2S\i2s.h)(0x54957635)
+I (..\HARDWARE\WM8978\wm8978.h)(0x542FDDF8)
+I (..\HARDWARE\KEY\key.h)(0x53BB65F3)
+I (..\HARDWARE\LED\led.h)(0x53660F45)
+F (..\APP\audioplay.c)(0x544B9DCF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USMART -I..\HARDWARE\LED -I..\HARDWARE\BEEP -I..\HARDWARE\KEY -I..\HARDWARE\EXTI -I..\HARDWARE\WDG -I..\HARDWARE\TIMER -I..\HARDWARE\TPAD -I..\HARDWARE\OLED -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RNG -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\LSENS -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\W25QXX -I..\HARDWARE\RS485 -I..\HARDWARE\CAN -I..\HARDWARE\TOUCH -I..\HARDWARE\REMOTE -I..\HARDWARE\DS18B20 -I..\HARDWARE\DHT11 -I..\HARDWARE\MPU6050 -I..\HARDWARE\MPU6050\eMPL -I..\HARDWARE\NRF24L01 -I..\HARDWARE\STMFLASH -I..\HARDWARE\DCMI -I..\HARDWARE\OV2640 -I..\HARDWARE\USART2 -I..\HARDWARE\SRAM -I..\HARDWARE\SDIO -I..\HARDWARE\WM8978 -I..\HARDWARE\I2S -I..\MALLOC -I..\FATFS\src -I..\FATFS\exfuns -I..\TEXT -I..\PICTURE -I..\AUDIOCODEC\wav -I..\APP-I "C:\Users\Administrator\Desktop\实验43 音乐播放器实验\USER\RTE"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Keil uv5\ARM\CMSIS\Include"-I "D:\Keil uv5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include"-D__UVISION_VERSION="515" -DSTM32F407xx -DSTM32F40_41xxx --C99-o ..\obj\audioplay.o --omf_browse ..\obj\audioplay.crf --depend ..\obj\audioplay.d)
+I (..\APP\audioplay.h)(0x544B9E85)
+I (..\SYSTEM\sys\sys.h)(0x555D4ABD)
+I (..\SYSTEM\sys\stm32f4xx.h)(0x53DBA488)
+I (..\SYSTEM\sys\core_cm4.h)(0x53C7D530)
+I (D:\Keil uv5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\SYSTEM\sys\core_cmInstr.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cmFunc.h)(0x53C7D530)
+I (..\SYSTEM\sys\core_cm4_simd.h)(0x53C7D530)
+I (..\SYSTEM\sys\system_stm32f4xx.h)(0x53DBA499)
+I (..\FATFS\src\ff.h)(0x53D1D050)
+I (..\FATFS\src\integer.h)(0x5378E62C)
+I (..\FATFS\src\ffconf.h)(0x53C89DEF)
+I (..\AUDIOCODEC\wav\wavplay.h)(0x54008285)
+I (..\MALLOC\malloc.h)(0x54002FBF)
+I (..\SYSTEM\usart\usart.h)(0x5528CC5B)
+I (D:\Keil uv5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\HARDWARE\WM8978\wm8978.h)(0x542FDDF8)
+I (..\HARDWARE\I2S\i2s.h)(0x54957635)
+I (..\HARDWARE\LED\led.h)(0x53660F45)
+I (..\HARDWARE\LCD\lcd.h)(0x55C08D4D)
+I (D:\Keil uv5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\SYSTEM\delay\delay.h)(0x555D4A36)
+I (..\HARDWARE\KEY\key.h)(0x53BB65F3)
+I (..\FATFS\exfuns\exfuns.h)(0x54002836)
+I (..\TEXT\text.h)(0x53FDDD57)
+I (..\TEXT\fontupd.h)(0x53C73922)
+I (D:\Keil uv5\ARM\ARMCC\include\string.h)(0x54C245B8)
+F (..\readme.txt)(0x55C03F78)()

@@ -1,0 +1,4 @@
+Change Component Comment : Designator=R4 Old Comment=1M New Comment=4.7K
+Added Pin To Net: NetName=REDIN Pin=R4-1
+Added Pin To Net: NetName=VDD Pin=R4-2
+Added Member To Class: ClassName=keyboard Member=Component R4 4.7K

@@ -1,0 +1,8 @@
+Added Component: Designator=SD(HDR1X6)
+Added Pin To Net: NetName=VCC3.3 Pin=SD-1
+Added Pin To Net: NetName=PB14 Pin=SD-2
+Added Pin To Net: NetName=PB13 Pin=SD-3
+Added Pin To Net: NetName=PB15 Pin=SD-4
+Added Pin To Net: NetName=PB12 Pin=SD-5
+Added Pin To Net: NetName=DGND Pin=SD-6
+Added Member To Class: ClassName=Sheet1 Member=Component SD Header 6

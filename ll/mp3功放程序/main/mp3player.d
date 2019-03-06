@@ -1,0 +1,49 @@
+.\mp3player.o: ..\GUI\mp3player.c
+.\mp3player.o: ..\main\main.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\mp3player.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\mp3player.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\mp3player.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\mp3player.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\mp3player.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\mp3player.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\mp3player.o: ..\SYS\sys.h
+.\mp3player.o: ..\SYS\delay.h
+.\mp3player.o: ..\device\VS1003\vs1003.h
+.\mp3player.o: ..\main\main.h
+.\mp3player.o: ..\device\MMC_SD\MMC_SD.h
+.\mp3player.o: ..\device\SPI2\spi2.h
+.\mp3player.o: ..\device\LCD13164\lcd13164.h
+.\mp3player.o: ..\FAT\fat.h
+.\mp3player.o: ..\FAT\comm.h
+.\mp3player.o: ..\Untogb\untogb.h
+.\mp3player.o: ..\device\Keyboard\keyboard.h
+.\mp3player.o: ..\FFT\my_fft.h
+.\mp3player.o: ..\device\ADC\ADC.h
+.\mp3player.o: ..\game\snake.h
+.\mp3player.o: ..\game\russia.h

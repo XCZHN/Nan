@@ -1,0 +1,49 @@
+.\adc.o: ..\device\ADC\ADC.C
+.\adc.o: ..\main\main.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\adc.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\adc.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\adc.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\adc.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\adc.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\adc.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\adc.o: ..\SYS\sys.h
+.\adc.o: ..\SYS\delay.h
+.\adc.o: ..\device\VS1003\vs1003.h
+.\adc.o: ..\main\main.h
+.\adc.o: ..\device\MMC_SD\MMC_SD.h
+.\adc.o: ..\device\SPI2\spi2.h
+.\adc.o: ..\device\LCD13164\lcd13164.h
+.\adc.o: ..\FAT\fat.h
+.\adc.o: ..\FAT\comm.h
+.\adc.o: ..\Untogb\untogb.h
+.\adc.o: ..\device\Keyboard\keyboard.h
+.\adc.o: ..\FFT\my_fft.h
+.\adc.o: ..\device\ADC\ADC.h
+.\adc.o: ..\game\snake.h
+.\adc.o: ..\game\russia.h

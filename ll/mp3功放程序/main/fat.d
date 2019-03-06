@@ -1,0 +1,49 @@
+.\fat.o: ..\FAT\FAT.c
+.\fat.o: ..\main\main.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\fat.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\fat.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\fat.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\fat.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\fat.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\fat.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\fat.o: ..\SYS\sys.h
+.\fat.o: ..\SYS\delay.h
+.\fat.o: ..\device\VS1003\vs1003.h
+.\fat.o: ..\main\main.h
+.\fat.o: ..\device\MMC_SD\MMC_SD.h
+.\fat.o: ..\device\SPI2\spi2.h
+.\fat.o: ..\device\LCD13164\lcd13164.h
+.\fat.o: ..\FAT\fat.h
+.\fat.o: ..\FAT\comm.h
+.\fat.o: ..\Untogb\untogb.h
+.\fat.o: ..\device\Keyboard\keyboard.h
+.\fat.o: ..\FFT\my_fft.h
+.\fat.o: ..\device\ADC\ADC.h
+.\fat.o: ..\game\snake.h
+.\fat.o: ..\game\russia.h

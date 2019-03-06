@@ -1,0 +1,8 @@
+Added Component: Designator=R18(1608[0603])
+Added Component: Designator=S4(BAT-2)
+Added Pin To Net: NetName=VCC3.3 Pin=R18-1
+Added Pin To Net: NetName=RESET Pin=R18-2
+Added Pin To Net: NetName=DGND Pin=S4-1
+Added Pin To Net: NetName=RESET Pin=S4-2
+Added Member To Class: ClassName=Sheet1 Member=Component R18 10K
+Added Member To Class: ClassName=Sheet1 Member=Component S4 SW-PB

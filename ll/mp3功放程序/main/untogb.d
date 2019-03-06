@@ -1,0 +1,50 @@
+.\untogb.o: ..\Untogb\untogb.c
+.\untogb.o: ..\main\main.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\untogb.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\untogb.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\untogb.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\untogb.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\untogb.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\untogb.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\untogb.o: ..\SYS\sys.h
+.\untogb.o: ..\SYS\delay.h
+.\untogb.o: ..\device\VS1003\vs1003.h
+.\untogb.o: ..\main\main.h
+.\untogb.o: ..\device\MMC_SD\MMC_SD.h
+.\untogb.o: ..\device\SPI2\spi2.h
+.\untogb.o: ..\device\LCD13164\lcd13164.h
+.\untogb.o: ..\FAT\fat.h
+.\untogb.o: ..\FAT\comm.h
+.\untogb.o: ..\Untogb\untogb.h
+.\untogb.o: ..\device\Keyboard\keyboard.h
+.\untogb.o: ..\FFT\my_fft.h
+.\untogb.o: ..\device\ADC\ADC.h
+.\untogb.o: ..\game\snake.h
+.\untogb.o: ..\game\russia.h
+.\untogb.o: ..\Untogb\unicodeToGB2312.h

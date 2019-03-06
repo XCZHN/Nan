@@ -1,0 +1,49 @@
+.\snake.o: ..\game\snake.c
+.\snake.o: ..\main\main.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\snake.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\snake.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\snake.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\snake.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\snake.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\snake.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\snake.o: ..\SYS\sys.h
+.\snake.o: ..\SYS\delay.h
+.\snake.o: ..\device\VS1003\vs1003.h
+.\snake.o: ..\main\main.h
+.\snake.o: ..\device\MMC_SD\MMC_SD.h
+.\snake.o: ..\device\SPI2\spi2.h
+.\snake.o: ..\device\LCD13164\lcd13164.h
+.\snake.o: ..\FAT\fat.h
+.\snake.o: ..\FAT\comm.h
+.\snake.o: ..\Untogb\untogb.h
+.\snake.o: ..\device\Keyboard\keyboard.h
+.\snake.o: ..\FFT\my_fft.h
+.\snake.o: ..\device\ADC\ADC.h
+.\snake.o: ..\game\snake.h
+.\snake.o: ..\game\russia.h

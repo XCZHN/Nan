@@ -1,0 +1,50 @@
+.\lcd13164.o: ..\device\LCD13164\LCD13164.C
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\lcd13164.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\lcd13164.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\lcd13164.o: ..\main\main.h
+.\lcd13164.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\lcd13164.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\lcd13164.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\lcd13164.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\lcd13164.o: ..\SYS\sys.h
+.\lcd13164.o: ..\SYS\delay.h
+.\lcd13164.o: ..\device\VS1003\vs1003.h
+.\lcd13164.o: ..\main\main.h
+.\lcd13164.o: ..\device\MMC_SD\MMC_SD.h
+.\lcd13164.o: ..\device\SPI2\spi2.h
+.\lcd13164.o: ..\device\LCD13164\lcd13164.h
+.\lcd13164.o: ..\FAT\fat.h
+.\lcd13164.o: ..\FAT\comm.h
+.\lcd13164.o: ..\Untogb\untogb.h
+.\lcd13164.o: ..\device\Keyboard\keyboard.h
+.\lcd13164.o: ..\FFT\my_fft.h
+.\lcd13164.o: ..\device\ADC\ADC.h
+.\lcd13164.o: ..\game\snake.h
+.\lcd13164.o: ..\game\russia.h
+.\lcd13164.o: ..\device\LCD13164\font.h

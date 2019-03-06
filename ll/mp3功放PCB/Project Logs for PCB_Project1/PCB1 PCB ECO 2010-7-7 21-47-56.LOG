@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=DGND Pin=S2-1
+Added Pin To Net: NetName=RESET Pin=S2-2
+Added Member To Class: ClassName=Sheet1 Member=Component S2 SW-PB

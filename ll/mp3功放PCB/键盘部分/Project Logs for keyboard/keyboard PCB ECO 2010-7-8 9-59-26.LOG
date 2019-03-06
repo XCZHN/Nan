@@ -1,0 +1,78 @@
+Added Component: Designator=R61(AXIAL-0.4)
+Added Component: Designator=RES1(HDR1X9)
+Added Pin To Net: NetName=DGND Pin=S2-4
+Added Pin To Net: NetName=DGND Pin=S2-4
+Added Pin To Net: NetName=DGND Pin=S3-4
+Added Pin To Net: NetName=DGND Pin=S3-4
+Added Pin To Net: NetName=DGND Pin=S4-4
+Added Pin To Net: NetName=DGND Pin=S4-4
+Added Pin To Net: NetName=DGND Pin=S5-4
+Added Pin To Net: NetName=DGND Pin=S5-4
+Added Pin To Net: NetName=DGND Pin=S6-4
+Added Pin To Net: NetName=DGND Pin=S6-4
+Added Pin To Net: NetName=DGND Pin=S7-4
+Added Pin To Net: NetName=DGND Pin=S7-4
+Added Pin To Net: NetName=DGND Pin=S8-4
+Added Pin To Net: NetName=DGND Pin=S8-4
+Added Pin To Net: NetName=DGND Pin=S9-4
+Added Pin To Net: NetName=DGND Pin=S9-4
+Added Pin To Net: NetName=DGND Pin=U4-5
+Added Pin To Net: NetName=DGND Pin=U4-8
+Added Net: Name=DGND
+Added Pin To Net: NetName=GS1 Pin=U4-14
+Added Net: Name=GS1
+Added Pin To Net: NetName=NetRES1_1 Pin=RES1-1
+Added Pin To Net: NetName=NetRES1_1 Pin=S2-2
+Added Pin To Net: NetName=NetRES1_1 Pin=S2-2
+Added Pin To Net: NetName=NetRES1_1 Pin=U4-10
+Added Net: Name=NetRES1_1
+Added Pin To Net: NetName=NetRES1_2 Pin=RES1-2
+Added Pin To Net: NetName=NetRES1_2 Pin=S3-2
+Added Pin To Net: NetName=NetRES1_2 Pin=S3-2
+Added Pin To Net: NetName=NetRES1_2 Pin=U4-11
+Added Net: Name=NetRES1_2
+Added Pin To Net: NetName=NetRES1_3 Pin=RES1-3
+Added Pin To Net: NetName=NetRES1_3 Pin=S4-2
+Added Pin To Net: NetName=NetRES1_3 Pin=S4-2
+Added Pin To Net: NetName=NetRES1_3 Pin=U4-12
+Added Net: Name=NetRES1_3
+Added Pin To Net: NetName=NetRES1_4 Pin=RES1-4
+Added Pin To Net: NetName=NetRES1_4 Pin=S5-2
+Added Pin To Net: NetName=NetRES1_4 Pin=S5-2
+Added Pin To Net: NetName=NetRES1_4 Pin=U4-13
+Added Net: Name=NetRES1_4
+Added Pin To Net: NetName=NetRES1_5 Pin=RES1-5
+Added Pin To Net: NetName=NetRES1_5 Pin=S9-2
+Added Pin To Net: NetName=NetRES1_5 Pin=S9-2
+Added Pin To Net: NetName=NetRES1_5 Pin=U4-4
+Added Net: Name=NetRES1_5
+Added Pin To Net: NetName=NetRES1_6 Pin=RES1-6
+Added Pin To Net: NetName=NetRES1_6 Pin=S8-2
+Added Pin To Net: NetName=NetRES1_6 Pin=S8-2
+Added Pin To Net: NetName=NetRES1_6 Pin=U4-3
+Added Net: Name=NetRES1_6
+Added Pin To Net: NetName=NetRES1_7 Pin=RES1-7
+Added Pin To Net: NetName=NetRES1_7 Pin=S7-2
+Added Pin To Net: NetName=NetRES1_7 Pin=S7-2
+Added Pin To Net: NetName=NetRES1_7 Pin=U4-2
+Added Net: Name=NetRES1_7
+Added Pin To Net: NetName=NetRES1_8 Pin=RES1-8
+Added Pin To Net: NetName=NetRES1_8 Pin=S6-2
+Added Pin To Net: NetName=NetRES1_8 Pin=S6-2
+Added Pin To Net: NetName=NetRES1_8 Pin=U4-1
+Added Net: Name=NetRES1_8
+Added Pin To Net: NetName=PD0 Pin=U4-9
+Added Net: Name=PD0
+Added Pin To Net: NetName=PD1 Pin=U4-7
+Added Net: Name=PD1
+Added Pin To Net: NetName=PD4 Pin=U4-6
+Added Net: Name=PD4
+Added Pin To Net: NetName=REDIN Pin=R61-1
+Added Net: Name=REDIN
+Added Pin To Net: NetName=VCC3.3 Pin=RES1-9
+Added Pin To Net: NetName=VCC3.3 Pin=U4-16
+Added Net: Name=VCC3.3
+Added Pin To Net: NetName=VDD Pin=R61-2
+Added Net: Name=VDD
+Added Class: Name=keyboard
+Added Room: Name=keyboard

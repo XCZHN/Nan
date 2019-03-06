@@ -1,0 +1,49 @@
+.\my_fft.o: ..\FFT\my_fft.c
+.\my_fft.o: ..\main\main.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_lib.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_map.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_conf.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_type.h
+.\my_fft.o: ..\Lib\STM32F10x\cortexm3_macro.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_adc.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_bkp.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_can.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_crc.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_dac.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_dbgmcu.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_dma.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_exti.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_flash.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_fsmc.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_gpio.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_i2c.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_iwdg.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_nvic.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_pwr.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_rcc.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_rtc.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_sdio.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_spi.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_systick.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_tim.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_usart.h
+.\my_fft.o: ..\Lib\STM32F10x\stm32f10x_wwdg.h
+.\my_fft.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\math.h
+.\my_fft.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\my_fft.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\stdio.h
+.\my_fft.o: D:\Keil uv5\ARM\ARMCC\Bin\..\include\string.h
+.\my_fft.o: ..\SYS\sys.h
+.\my_fft.o: ..\SYS\delay.h
+.\my_fft.o: ..\device\VS1003\vs1003.h
+.\my_fft.o: ..\main\main.h
+.\my_fft.o: ..\device\MMC_SD\MMC_SD.h
+.\my_fft.o: ..\device\SPI2\spi2.h
+.\my_fft.o: ..\device\LCD13164\lcd13164.h
+.\my_fft.o: ..\FAT\fat.h
+.\my_fft.o: ..\FAT\comm.h
+.\my_fft.o: ..\Untogb\untogb.h
+.\my_fft.o: ..\device\Keyboard\keyboard.h
+.\my_fft.o: ..\FFT\my_fft.h
+.\my_fft.o: ..\device\ADC\ADC.h
+.\my_fft.o: ..\game\snake.h
+.\my_fft.o: ..\game\russia.h

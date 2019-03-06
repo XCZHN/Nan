@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=NetRES1_1 Pin=S2-2
+Added Pin To Net: NetName=DGND Pin=S2-4
+Added Pin To Net: NetName=NetRES1_2 Pin=S3-2
+Added Pin To Net: NetName=DGND Pin=S3-4
+Added Pin To Net: NetName=NetRES1_3 Pin=S4-2
+Added Pin To Net: NetName=DGND Pin=S4-4
+Added Pin To Net: NetName=NetRES1_4 Pin=S5-2
+Added Pin To Net: NetName=DGND Pin=S5-4
+Added Pin To Net: NetName=NetRES1_8 Pin=S6-2
+Added Pin To Net: NetName=NetRES1_8 Pin=S6-2
+Added Pin To Net: NetName=DGND Pin=S6-4
+Added Pin To Net: NetName=DGND Pin=S6-4
+Added Pin To Net: NetName=NetRES1_7 Pin=S7-2
+Added Pin To Net: NetName=NetRES1_7 Pin=S7-2
+Added Pin To Net: NetName=DGND Pin=S7-4
+Added Pin To Net: NetName=DGND Pin=S7-4
