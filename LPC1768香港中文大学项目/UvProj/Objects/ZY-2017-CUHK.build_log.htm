@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xc Microsoft, Microsoft, LIC=0VRJJ-U9P5A-06VQU-SGIWJ-XPR1Y-YIZVW
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  D:\Keil uv5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+F:\工作文件\A程序文件\LPC1768(香港中文大学项目)\UvProj\LPC768.uvprojx
+Project File Date:  03/05/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil uv5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling core_cm3.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling Drv_LCD.c...
+Warning: L6171W: Code symbol exit defined in non executable section drv_lcd.o(.constdata).
+Finished: 0 information, 1 warning and 0 error messages.
+compiling Drv_Uart.c...
+compiling Drv_Voice.c...
+compiling Drv_74HC16X.c...
+compiling Drv_RFM.c...
+compiling Drv_Wiegand.c...
+compiling Lib_Public.c...
+compiling Mid_SysTick.c...
+compiling Mid_Magically.c...
+compiling Mid_SysConfig.c...
+compiling Mid_Comm.c...
+compiling Mid_Lockers.c...
+compiling Mid_ZiKu.c...
+compiling App_main.c...
+compiling App_ComDeal.c...
+compiling App_Record.c...
+compiling App_Card.c...
+compiling App_Network.c...
+compiling App_GUI.c...
+compiling App_KeyUI.c...
+compiling app_Lockers.c...
+compiling app_Fingerprint.c...
+linking...
+.\Objects\ZY-2017-CUHK.axf: Warning: L6171W: Code symbol exit defined in non executable section drv_lcd.o(.constdata).
+.\Objects\ZY-2017-CUHK.axf: Error: L6169E: Relocation #REL:1 in __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) with respect to exit. Branch to code symbol defined in non executable section drv_lcd.o(.constdata).
+Not enough information to list load addresses in the image map.
+Finished: 1 information, 1 warning and 1 error messages.
+".\Objects\ZY-2017-CUHK.axf" - 1 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.5.0.pack
+                Keil.LPC1700_DFP.2.5.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil uv5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  D:\Keil uv5\ARM\PACK\Keil\LPC1700_DFP\2.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Target not created.
+Build Time Elapsed:  00:00:12
+</pre>
+</body>
+</html>
