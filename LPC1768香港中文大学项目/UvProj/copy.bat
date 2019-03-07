@@ -1,1 +1,0 @@
-copy /y .\Objects\ZY-LPC1768.bin  ..\bin\
